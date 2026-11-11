@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0314804289e153b4497070ca950b9542, type: 3}
+  m_Name: Fornido
+  m_EditorClassIdentifier: Assembly-CSharp::DeepPocket.Data.CharacterDefinition
+  displayName: Fornido
+  description: "+30% vida m\xE1xima, -10% velocidad."
+  icon: {fileID: 0}
+  baseMaxHealth: 70
+  baseMoveSpeed: 5
+  baseDamageMultiplier: 1
+  basePickupRadius: 3
+  goldMultiplier: 1
+  startingModifiers:
+  - stat: 0
+    op: 1
+    value: 0.3
+  - stat: 2
+    op: 1
+    value: -0.1
+  startingItems:
+  - {fileID: 11400000, guid: fac1a6abb8996eb4fadf00e9981c95f6, type: 2}

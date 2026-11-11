@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 216935d314257994e9529cfff4ae722b, type: 3}
+  m_Name: WaveDefinition
+  m_EditorClassIdentifier: Assembly-CSharp::DeepPocket.Data.WaveDefinition
+  spawnTable:
+  - enemy: {fileID: 11400000, guid: 105a99e3a0ff1284dacbe15c3c3ec3e8, type: 2}
+    firstWave: 1
+    weight: 58
+  - enemy: {fileID: 11400000, guid: 32e29927a82ddcf4e8b87d82b3ade364, type: 2}
+    firstWave: 2
+    weight: 26
+  - enemy: {fileID: 11400000, guid: 47cd816912303df4b893bba73c222f8a, type: 2}
+    firstWave: 4
+    weight: 16
+  baseSpawnInterval: 1.35
+  intervalMultiplierPerWave: 0.9
+  minSpawnInterval: 0.35
+  baseWaveDuration: 20
+  durationGrowthPerWave: 1.2
+  maxAlive: 80
+  spawnRadius: 18
+  extraSpawnFromWave: 3
+  extraSpawnChance: 0.3
+  enemySpeedScalePerWave: 0.2

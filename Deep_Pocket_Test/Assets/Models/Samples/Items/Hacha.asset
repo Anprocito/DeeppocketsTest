@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab4c28628ee94bd40b78d60f31506e3b, type: 3}
+  m_Name: Hacha
+  m_EditorClassIdentifier: Assembly-CSharp::DeepPocket.Data.WeaponDefinition
+  displayName: Hacha
+  description: 'Ancha: cubre dos rumbos a la vez.'
+  icon: {fileID: 0}
+  color: {r: 0.9098039, g: 0.6509804, b: 0.36078432, a: 1}
+  cells:
+  - {x: 0, y: 0}
+  - {x: 1, y: 0}
+  damage: 8
+  attackInterval: 0.76
+  maxTargetsPerAttack: 6
+  isRanged: 0
+  projectilePrefab: {fileID: 0}
+  projectileSpeed: 14
+  special: {fileID: 11400000, guid: 769920837d40a4749878e3c3858ec63c, type: 2}
+  specialTrigger:
+    type: 0
+    cooldownSeconds: 6
+    everyN: 5
+    healthFraction: 0.3
+    requiredCopies: 2

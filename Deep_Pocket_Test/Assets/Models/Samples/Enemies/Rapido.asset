@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81beb98d3b71cf74ea47ace854534547, type: 3}
+  m_Name: Rapido
+  m_EditorClassIdentifier: Assembly-CSharp::DeepPocket.Data.EnemyDefinition
+  displayName: "R\xE1pido"
+  prefab: {fileID: 0}
+  color: {r: 0.35, g: 0.56, b: 0.48, a: 1}
+  visualScale: 0.8
+  maxHealth: 13
+  moveSpeed: 3.5
+  contactDamage: 7
+  contactRange: 1
+  contactCooldown: 0.6
+  xpReward: 7
+  goldReward: 2
+  healthScalePerWave: 0.13
+  damageScalePerWave: 0.06

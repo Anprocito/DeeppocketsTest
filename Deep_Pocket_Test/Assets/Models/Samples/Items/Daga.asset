@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab4c28628ee94bd40b78d60f31506e3b, type: 3}
+  m_Name: Daga
+  m_EditorClassIdentifier: Assembly-CSharp::DeepPocket.Data.WeaponDefinition
+  displayName: Daga
+  description: "R\xE1pida y compacta."
+  icon: {fileID: 0}
+  color: {r: 0.62352943, g: 0.84705883, b: 0.79607844, a: 1}
+  cells:
+  - {x: 0, y: 0}
+  damage: 6
+  attackInterval: 0.52
+  maxTargetsPerAttack: 1
+  isRanged: 0
+  projectilePrefab: {fileID: 0}
+  projectileSpeed: 14
+  special: {fileID: 11400000, guid: 76a050cd6c151a74c9b3fdd0a3d3ed57, type: 2}
+  specialTrigger:
+    type: 1
+    cooldownSeconds: 5
+    everyN: 5
+    healthFraction: 0.3
+    requiredCopies: 2

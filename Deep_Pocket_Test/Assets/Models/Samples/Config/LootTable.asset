@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d2dc5d8f6aabb74bb7757c2f4466a06, type: 3}
+  m_Name: LootTable
+  m_EditorClassIdentifier: Assembly-CSharp::DeepPocket.Data.LootTable
+  entries:
+  - item: {fileID: 11400000, guid: fac1a6abb8996eb4fadf00e9981c95f6, type: 2}
+    weight: 3
+  - item: {fileID: 11400000, guid: b91f064ea4e44ab4c9560da795d63ed2, type: 2}
+    weight: 3
+  - item: {fileID: 11400000, guid: bbd46757b51178c45957b56d2f6eb247, type: 2}
+    weight: 2
+  - item: {fileID: 11400000, guid: 2929a49f0e3cd5b4ab1f3fe6ab97bda2, type: 2}
+    weight: 2
+  - item: {fileID: 11400000, guid: ec3f99e50cbdd554b95a771aeffb9ea5, type: 2}
+    weight: 3
+  - item: {fileID: 11400000, guid: 7dc2f0d3541713e43980ed81eb881e86, type: 2}
+    weight: 2
+  - item: {fileID: 11400000, guid: ae8ff321e0cd3b2499efc7aaf195ae43, type: 2}
+    weight: 2
+  - item: {fileID: 11400000, guid: 95fdcdbb5908ef24595d96cd692f49dc, type: 2}
+    weight: 2
+  - item: {fileID: 11400000, guid: c6724d9eea115ec419a4b2e61ab634f9, type: 2}
+    weight: 3
+  - item: {fileID: 11400000, guid: 1ea924b41ca7d5a41a92a46493060571, type: 2}
+    weight: 2
+  - item: {fileID: 11400000, guid: 34d3781b2a59b044b82e99879cc03c88, type: 2}
+    weight: 2
